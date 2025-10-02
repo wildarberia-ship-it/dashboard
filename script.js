@@ -487,8 +487,8 @@ function setCurrentDate() {
     const dateElement = document.getElementById('status-date');
     const fafsaDateElement = document.getElementById('fafsa-status-date');
     
-    // Set specific date: 9/29/2025
-    const specificDate = '9/29/2025';
+    // Set specific date: 10/03/2025
+    const specificDate = '10/03/2025';
     
     console.log('Setting date to:', specificDate);
     
