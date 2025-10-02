@@ -657,7 +657,8 @@ function drawNewGoLiveChart(canvas) {
         { date: '9/18/2025', colleges: 1 },
         { date: '9/22/2025', colleges: 3 },
         { date: '9/24/2025', colleges: 1 },
-        { date: '9/29/2025', colleges: 2 },
+        { date: '9/29/2025', colleges: 1 },
+        { date: '10/3/2025', colleges: 1 }
     ];
     
     const maxValue = Math.max(...data.map(d => d.colleges));
