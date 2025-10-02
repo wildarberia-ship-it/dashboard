@@ -1906,14 +1906,27 @@ body {
     border-bottom: none;
 }
 
-/* Responsive table */
+/* Process Flowchart Styles */
+.process-flowchart {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+    border: 1px solid #e5eaf0;
+}
+
+.flowchart-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive flowchart */
 @media (max-width: 768px) {
-    .data-table {
-        font-size: 12px;
-    }
-    
-    .data-table th,
-    .data-table td {
-        padding: 8px 12px;
+    .process-flowchart {
+        margin-top: 0.75rem;
+        padding: 0.75rem;
     }
 }
