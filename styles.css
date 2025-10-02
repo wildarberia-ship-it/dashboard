@@ -1923,10 +1923,50 @@ body {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Responsive flowchart */
+/* Recommendations Section Styles */
+.recommendations-section {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background: #f0f4ff;
+    border-left: 4px solid #0033A1;
+    border-radius: 0 8px 8px 0;
+}
+
+.recommendations-section h4 {
+    color: #0033A1;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0 0 0.75rem 0;
+}
+
+.recommendations-section ul {
+    margin: 0;
+    padding-left: 1.25rem;
+}
+
+.recommendations-section li {
+    color: #374151;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+}
+
+.recommendations-section li:last-child {
+    margin-bottom: 0;
+}
+
+/* Responsive recommendations */
 @media (max-width: 768px) {
-    .process-flowchart {
-        margin-top: 0.75rem;
+    .recommendations-section {
+        margin-top: 1rem;
         padding: 0.75rem;
+    }
+    
+    .recommendations-section h4 {
+        font-size: 0.9rem;
+    }
+    
+    .recommendations-section li {
+        font-size: 0.8rem;
     }
 }
